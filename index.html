@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>🗼Torre de Hanói</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2>🗼Torre de Hanói</h2>
+
+  <div id="setup">
+    <label>Discos:
+      <input type="number" id="numDiscos" min="1" max="8" value="3">
+    </label>
+    <label>Haste Inicial:
+      <select id="hasteInicial">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+      </select>
+    </label>
+    <label>Haste Final:
+      <select id="hasteFinal">
+        <option>C</option>
+        <option>A</option>
+        <option>B</option>
+      </select>
+    </label>
+    <button class="btn" onclick="iniciar()">Iniciar</button>
+  </div>
+
+  <div id="main">
+    <canvas id="canvas" width="750" height="500"></canvas>
+    <div id="log">
+      <h3>📜 Log de Movimentos</h3>
+      <ul id="log-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
