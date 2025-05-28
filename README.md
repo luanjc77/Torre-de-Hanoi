@@ -56,7 +56,6 @@ Tudo é executado localmente via HTML/CSS/JS.
 
 ## 📸 Exemplo de uso
 
-![Preview da aplicação](screenshot.png)  
-> Movimentos sendo exibidos ao lado, com animação visual dos discos.
+![image](https://github.com/user-attachments/assets/cf11efb4-a0eb-4795-9b28-4c444e3d9ade)
 
 
